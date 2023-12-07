@@ -17,15 +17,15 @@
       <header class="mb-5">
         <img src="assets/logo.svg" alt="Logo Empresa" />
       </header>
-      <div class="flex w-full gap-4 relative">
+      <div class="flex w-full gap-4 relative max-[600px]:flex-col">
         <button
           class="w-12 h-12 rounded-full bg-[#087F5B] text-sm text-white absolute -bottom-3 -right-4 hover:bg-[#0a9e73] transition duration-300 ease-in-out"
           onclick="openModal()"
         >
           <i class="ph ph-plus"></i>
         </button>
-        <section class="w-1/2 p-10 bg-[#087F5B] rounded-2xl">
-          <div class="flex flex-col text-white mb-[52vh]">
+        <section class="w-1/2 p-10 bg-[#087F5B] rounded-2xl max-[600px]:w-full">
+          <div class="flex flex-col text-white mb-[52vh] max-[600px]:mb-10">
             <span class="text-base font-normal">Saldo total</span>
             <h1 class="text-3xl font-bold">R$ 100,00</h1>
           </div>
@@ -35,7 +35,7 @@
                 Minhas contas
               </strong>
 
-              <div class="flex items-center gap-x-4">
+              <div class="flex items-center gap-x-4 max-[600px]:hidden">
                 <button
                   type="button"
                   class="text-white h-7 w-7 bg-transparent hover:bg-[#0000001A] transition flex items-center justify-center rounded-full"
@@ -78,7 +78,7 @@
               </div>
 
               <div
-                class="w-[195px] min-h-[11rem] h-[11rem] bg-white rounded-lg relative overflow-hidden hover:brightness-95 transition-all cursor-pointer select-none"
+                class="w-[195px] min-h-[11rem] h-[11rem] bg-white rounded-lg relative overflow-hidden hover:brightness-95 transition-all cursor-pointer select-none max-[600px]:hidden"
               >
                 <div class="w-2 h-full bg-violet-600 absolute right-0"></div>
                 <div class="w-full h-full p-4 flex flex-col justify-between">
@@ -102,7 +102,7 @@
               </div>
 
               <div
-                class="w-[195px] min-h-[11rem] h-[11rem] bg-white rounded-lg relative overflow-hidden hover:brightness-95 transition-all cursor-pointer select-none"
+                class="w-[195px] min-h-[11rem] h-[11rem] bg-white rounded-lg relative overflow-hidden hover:brightness-95 transition-all cursor-pointer select-none max-[600px]:hidden"
               >
                 <div class="w-2 h-full bg-orange-500 absolute right-0"></div>
                 <div class="w-full h-full p-4 flex flex-col justify-between">
@@ -127,7 +127,7 @@
             </div>
           </div>
         </section>
-        <section class="w-1/2 p-6 bg-[#F1F3F5] rounded-2xl">
+        <section class="w-1/2 p-6 bg-[#F1F3F5] rounded-2xl max-[600px]:w-full">
           <div class="flex flex-col gap-2 items-center justify-center">
             <div class="flex w-full items-center justify-between">
               <button
@@ -139,17 +139,17 @@
 
               <div class="flex gap-8">
                 <button
-                  class="px-16 py-3 text-sm text-[#343A40] hover:bg-white transition-all rounded-3xl font-medium"
+                  class="px-16 py-3 text-sm text-[#343A40] hover:bg-white transition-all rounded-3xl font-medium max-[600px]:px-3"
                 >
                   Jan
                 </button>
                 <button
-                  class="px-16 py-3 text-sm text-[#343A40] hover:bg-white transition-all rounded-3xl font-medium bg-white"
+                  class="px-16 py-3 text-sm text-[#343A40] hover:bg-white transition-all rounded-3xl font-medium bg-white max-[600px]:px-3"
                 >
                   Fev
                 </button>
                 <button
-                  class="px-16 py-3 text-sm text-[#343A40] hover:bg-white transition-all rounded-3xl font-medium"
+                  class="px-16 py-3 text-sm text-[#343A40] hover:bg-white transition-all rounded-3xl font-medium max-[600px]:px-3"
                 >
                   Mar
                 </button>
@@ -227,7 +227,7 @@
 
                 <i class="ph ph-x"></i>
               </button>
-              <span class="text-lg font-bold text-[##343A40]">Nova Receita</span>
+              <span class="text-lg font-bold text-[#343A40]">Nova Receita</span>
               <div></div>
           </div>
           
